@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+p{
+    color:red;
+}
+body{
+    background-color: rgb(14, 10, 10);
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    background-color: black;
+    height: 100%;
+}
+
+.wrapper{
+    background-color: black;
+    margin: 2rem auto;
+}
+@media only screen and (min-width: 600px) {
+    .wrapper{
+        margin : 50px 50px;
+    }
+    }
+
