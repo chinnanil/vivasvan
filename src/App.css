@@ -22,6 +22,7 @@ img{
 }
 
   .header_right{
+      display: flex;
       background-color: blueviolet;
   }
   @media only screen and (min-width: 600px) {

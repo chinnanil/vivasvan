@@ -6,8 +6,10 @@ p{
     color:red;
 }
 body{
-    background-color: rgb(14, 10, 10);
+    background-color: rgb(10, 7, 7);
+  
 }
+
 html, body {
     height: 100%;
     width: 100%;
@@ -19,9 +21,26 @@ html, body {
 }
 
 nav{
+    display:flex;
+    justify-content: start;
+    align-items: center;
     height:50px;
-    background-color: green;
+    background-color: rgb(40, 53, 71);
+    padding-bottom: 10px;
+   
 }
+nav p{
+    padding-left: 10px;
+    color:rgb(89, 123, 218);
+    text-align: center;
+    font-style: oblique;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+nav p em{
+    font-size: 60px;
+}
+
 
 .wrapper{
     background-color: black;
