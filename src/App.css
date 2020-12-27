@@ -5,27 +5,83 @@
 flex-wrap: wrap;
     flex: 1;
     align-content: flex-start;
+    overflow-x: hidden;
+}
+
+.people{
+   height: 100%;
+   width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    justify-content: space-around;
 }
 
 .header_left{
-    width: 100%;
+    width: 99%;
     height: 500px;
     overflow: hidden;
     background-size: cover;
     background-position: center;
     background-image: url('./images/main_image.jpg');
+    border-style: hidden;
+    border-top: none;
+    border-right: 10px;
+}
+.title__potluck-btn {
+	position: relative;
+	margin: 10px 0;
+	text-align: center;
+	display: block;
+    color: turquoise;
+}
+.title__potluck-btn {
+	border: 1px solid #f1c15d;
+	border-radius: 3px;
+	padding: 5px 10px;
+    position: absolute;
+    top:40px;
+	left: 120px;
+	font-size: 12px;
+}
+.title h2{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+        font-weight: 100;
+}
+.title{
+    position: relative;
+    padding-top: 10px;
+    height: 140px;
     
 }
-
 img{
     background-repeat: no-repeat;
 }
 
+.header_right {
+	width: 99%;
+}
+
+.tagLine{
+font-size: 1.5rem;
+text-align: center;
+margin: 0%;
+
+}
+
   .header_right{
       display: flex;
-      background-color: blueviolet;
+      background-color: rgb(10, 7, 12);
+      flex-direction: column;
+      
+      
   }
   @media only screen and (min-width: 600px) {
+    .title__potluck-btn {
+        left: 42%;
+    }
       .header{
           /* max-width: 1000px;
           max-height: 300px; */
