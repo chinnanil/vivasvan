@@ -52,6 +52,24 @@ nav{
 .my-float{
 	margin-top:16px;
 }
+.float-insta{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:120px;
+	right:40px;
+	background-image: linear-gradient(to right, red , orange);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float-insta{
+	margin-top:16px;
+}
 nav p{
     padding-left: 10px;
     color:rgb(89, 123, 218);
@@ -76,9 +94,7 @@ nav p em{
     overflow-x: hidden;
 }
 @media only screen and (min-width: 600px) {
-    body{
-        overflow: hidden;
-    }
+  
     .wrapper{
         margin : 100px 150px 0px 150px;
         max-width: 100%;

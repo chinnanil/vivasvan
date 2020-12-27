@@ -2,6 +2,14 @@
     position: relative;
     height: 150px;
     width:270px;
-    background-color: rgb(99, 128, 180);
+    background-color: rgb(49, 45, 43) ;
     border-radius: 10%;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+border-radius: 10%;
 }
