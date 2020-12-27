@@ -1,9 +1,9 @@
 import React from "react";
 import  "./App.css";
-import image from "./images/main_image.jpg";
+//import image from "./images/main_image.jpg";
 import Card from "./components/Card";
 
-{/* <img src={image} alt="nothing"></img> */}
+
 
 function App() {
   return (
