@@ -1,6 +1,6 @@
 import React from "react";
 import  "./App.css";
-import image from "./images/main_image.jpg";
+
 import Card from "./components/Card";
 
 import myPost from "./images/collage2.jpg";
