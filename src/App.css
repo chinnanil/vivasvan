@@ -24,7 +24,7 @@ flex-wrap: wrap;
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url('./images/main_image.jpg');
+    background-image: url('./images/pixabay.jpg');
     border-style: hidden;
     border-top: none;
     border-right: 10px;
@@ -63,7 +63,31 @@ img{
 .header_right {
 	width: 99%;
 }
+.header_left{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_left > img{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    border-radius: 0%;
+    
+        
+}
+.header_left > div > .mam{
 
+    object-fit: fill;
+    position: relative;
+
+    
+    
+}
+.header_left > div{
+    flex: 1 1 100px;
+    height: 100%;
+    
+}
 .tagLine{
 font-size: 1.5rem;
 text-align: center;
