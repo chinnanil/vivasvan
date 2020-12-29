@@ -2,11 +2,7 @@ import React from "react";
 import  "./App.css";
 import image from "./images/main_image.jpg";
 import Card from "./components/Card";
-import col1 from "./images/collage/col1.jpg";
-import col2 from "./images/collage/col2.jpg";
-import  geeCropped  from "./images/gee_cropped.jpg";
-import col3 from "./images/collage/col3.jpg";
-import pixabay from "./images/pixabay.jpg";
+
 import myPost from "./images/collage2.jpg";
 
 
@@ -18,7 +14,7 @@ function App() {
       <div className="header">
         <div className="header_left">
       
-          <img src={myPost}></img>
+          <img src={myPost} alt="collage"></img>
 
           
         </div>
