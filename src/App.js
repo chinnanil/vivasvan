@@ -20,7 +20,8 @@ function App() {
         </div>
         <div className="header_right">
               <div className="title"><h2 className="tagLine">Official Agency of jlStream</h2>
-              <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScuA6rnt8QH_Ke3QhobUcYQC53BbMyNru0Ic-i6lLWvUx97mg/viewform?usp=sf_link" class="title__potluck-btn" rel="noopener noreferrer">Register with us →</a>
+              <a target="_blank" href="#" class="title__potluck-btn" rel="noopener noreferrer">Agency Code :→ <code style={{fontSize:20}}>1899</code> </a>
+              
               </div>
               <div className="people">
                 <Card />

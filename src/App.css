@@ -43,7 +43,8 @@ flex-wrap: wrap;
     position: absolute;
     top:40px;
 	left: 120px;
-	font-size: 12px;
+    font-size: 12px;
+    text-decoration: none;
 }
 .title h2{
     color: white;
@@ -123,7 +124,6 @@ margin: 0%;
         background-color: chocolate;
     }
     }
-
 
 
 
