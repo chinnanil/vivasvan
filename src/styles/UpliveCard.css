@@ -1,0 +1,32 @@
+.upcard{
+    display: flex;
+    height:350px;
+    width:220px;
+    background-color: rgb(18, 23, 24);
+    border-style: solid;
+    border-color: rgb(46, 58, 163);
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-end;
+
+}
+
+.upimage{
+margin-top: 5px;   
+}
+
+.updetails{
+  padding-left: 10px;
+ 
+}
+
+.updetails>p{
+    color:green;
+}
+.updetails>p>a{
+    color:turquoise;
+}
+
+.agencycode{
+    color:turquoise;
+}

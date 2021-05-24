@@ -2,6 +2,7 @@ import React from "react";
 import  "./App.css";
 
 import Card from "./components/Card";
+import UpliveCard from "./components/UpliveCard";
 
 import myPost from "./images/collage2.jpg";
 
@@ -25,6 +26,7 @@ function App() {
               </div>
               <div className="people">
                 <Card />
+                <UpliveCard />
               </div>
         </div>
        
